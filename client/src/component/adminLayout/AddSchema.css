@@ -1,0 +1,39 @@
+/* AddSchema.css */
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .stylef {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f0f1;
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .headd {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .headf {
+    font-size: 24px;
+    color: #333;
+    background-color: rgb(139, 102, 240);
+  }
+  
+  .pd-3 {
+    padding: 15px;
+  }
+  .btn{
+    text-align: center;
+    background-color: blue;
+  }
+  

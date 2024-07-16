@@ -1,0 +1,64 @@
+/* YourCSSFile.css */
+
+.styleform {
+  max-width: 900px;
+  padding: 20px;
+  border: 1px solid #1a1919;
+  border-radius: 10px;
+  background-color: #ece5ec;
+}
+
+.headdiv {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(219, 186, 235);
+}
+
+.headform {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pb-3 {
+  padding-bottom: 1rem;
+}
+
+.pd-3 {
+  padding-bottom: 1rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.custom-button {
+  width: 150px; /* Adjust this value to set the desired width */
+  display: flex;
+text-align: right;
+float: right;
+background-color: rgb(57, 9, 82);
+  
+}
+
+/* RationCardComponent.css */
+.radio-group {
+  display: flex;
+  text-align: left;
+  
+}
+
+.radio-label {
+  margin-right: 10px;
+  display: flex;
+  margin-right: 10%;
+}
+
+.radio-label input {
+  margin-right: 5px;
+}
+

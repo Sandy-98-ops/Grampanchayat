@@ -1,0 +1,87 @@
+    /* Container for the entire login form */
+  .container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  /* Login card styling */
+  .login {
+    width: 400px;
+    background-color: #adbcca;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(49, 14, 106, 0.1);
+  }
+  
+  .login h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  /* Form inputs */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Remember me checkbox */
+  .form-check-label {
+    color: #000000;
+  }
+  
+  /* Submit button */
+  .btn-primary {
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .btn-primary:hover {
+    background-color: blueviolet;
+  }
+  
+  /* Forgot password link */
+  .login-help {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.985rem;
+  }
+  
+  .login-help a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .login-help a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Focus styles for accessibility */
+  .form-control:focus,
+  .btn-primary:focus,
+  .login-help a:focus {
+    outline: 2px solid black;
+    outline-offset: 2px;
+  }
+  
